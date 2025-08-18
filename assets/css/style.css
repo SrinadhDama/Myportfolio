@@ -603,43 +603,31 @@ section {
   min-height: 500px;
 }
 
-.about .skills-content {
+.skills-content {
   margin-top: 30px;
 }
 
-.about .skills-content .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.about .skills-content .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
+.skill-label-wrapper {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   color: #3b434a;
+  font-size: 1rem;
 }
 
-.about .skills-content .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.about .skills-content .progress-bar-wrap {
+.progress {
+  height: 20px;
   background: #e6e8eb;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
 
-.about .skills-content .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
+.progress-bar {
+  height: 100%;
   background-color: #ffb727;
+  border-radius: 5px;
+  transition: width 0.9s ease;
 }
-
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
